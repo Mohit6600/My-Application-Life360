@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="people"
+        android:id="@+id/location"
+        android:icon="@drawable/ic_baseline_people_24"
+        />
+
+    <item android:title="item"
+        android:id="@+id/driving"
+        android:icon="@drawable/ic_baseline_key_24"/>
+
+    <item android:title="place"
+        android:id="@+id/safety"
+        android:icon="@drawable/ic_baseline_domain_24"/>
+
+
+
+
+</menu>

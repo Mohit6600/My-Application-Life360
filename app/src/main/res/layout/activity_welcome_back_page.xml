@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8652FF">
+
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:background="#8652FF"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/life360_4" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+       android:layout_marginTop="250dp"
+        android:text="Welcome back to Life360"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/text10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text5"
+        android:layout_marginTop="-11dp"
+        android:padding="25dp"
+        android:text="We noticed this may be a new device.We'll log you out of your other devices so life360 can continue to work properly"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/forwardBtn"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#00FFFFFF"
+        android:textAlignment="center"
+        android:text="Your previous devices will no longer report location,
+        driving history, and important safety features"
+        android:textSize="12sp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/forwardBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="65dp"
+        android:background="@drawable/btn_corner3"
+        android:text="Keep using this device"
+        android:textAllCaps="false"
+        android:textColor="#8652FF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/signOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="10dp"
+        android:background="#008652FF"
+        android:text="Sign out"
+        android:textAllCaps="false"
+        android:textColor="#FAE9A3"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>

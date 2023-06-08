@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#8652FF">
+
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="Let's get started."
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/text20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:hint="user"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text3"
+        android:layout_centerHorizontal="true"
+        android:text="What's your number!"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_corner"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text4"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal">
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/countryCodePicker1"
+            android:layout_width="wrap_content"
+            app:ccp_showNameCode="false"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="40dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textMobileNo"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginTop="35dp"
+            android:hint="Enter number"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ContinueBtn2"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:textColor="#8652FF"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_corner2"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="65dp"
+        />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="35dp"
+      android:orientation="horizontal"
+      android:layout_marginLeft="25dp"
+      android:layout_marginRight="25dp"
+      android:layout_above="@+id/ContinueBtn2"
+      android:gravity="center_horizontal">
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView"
+          android:textSize="12sp"
+          android:text="@string/messageWithLink"
+          android:textColor="@color/white"
+          android:background='#00F3F3F3'
+          android:focusableInTouchMode="false"
+          android:textColorLink="#FAE9A3"
+          android:textAlignment="center" />
+
+
+
+
+  </LinearLayout>
+
+</RelativeLayout>

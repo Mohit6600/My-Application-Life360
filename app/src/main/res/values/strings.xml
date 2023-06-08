@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application LIfe360</string>
+    <string name="messageWithLink">By signing up you accept our<a href="https://www.life360.com/terms_of_use/"> terms of service</a> and <a href="https://support.life360.com/hc/en-us/articles/360043228154-LIFE360-Privacy-Cookie-Policy#:~:text=We%20may%20collect%20and%20share,attribution%2C%20analytics%20or%20research%20purposes."> privacy policy</a>
+    </string>
+
+
+    <string name="learnMoreLink"><a href="https://www.tile.com/how-it-works">Learn More</a></string>
+
+    <string name="title_activity_maps">MapsActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
